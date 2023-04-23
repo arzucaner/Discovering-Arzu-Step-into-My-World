@@ -1,11 +1,27 @@
 body {
     text-align: center;
     font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 21px;
+    font-weight: 300;
+    margin: 0;
 }
 
 .container {
     width: 570px;
     margin: 0 auto;
+}
+
+.bold-text {
+    font-weight: 900;
+    display: block;
+}
+
+h1 .bold-text {
+    font-size: 80px;
+}
+
+h2 .bold-text {
+    font-weight: 80px;
 }
 
 h1,
@@ -24,4 +40,26 @@ h2 {
 h3 {
     font-size: 36px;
     font-weight: 900;
+}
+
+a:hover,
+a:focus {
+    color: #131313;
+}
+
+header,
+section {
+    padding: 100px 0;
+}
+
+header {
+    background-color: #d7d7d7;
+}
+
+.about-me {
+    background-color: #ffeaea;
+}
+
+.articles {
+    background-color: #eaf9ff;
 }
