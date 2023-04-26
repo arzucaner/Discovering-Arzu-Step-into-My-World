@@ -42,7 +42,7 @@ p {
 }
 
 a {
-    color: #99D930;
+    color: #818776;
     font-weight: 900;
 }
 
@@ -91,10 +91,14 @@ header {
 
 .articles {
     background-color: #0a0a0a;
+    text-align: center;
 }
 
-.img {
-    width:570px;
-    height:500px;
+img {
+    width: 200px;
+    height: 200px;
     float: left;
+    margin-right: 10px;
+    border-radius: 50%;  
 }
+
