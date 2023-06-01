@@ -1,6 +1,6 @@
 body {
     text-align: center;
-    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-family:'Unbounded', Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; 
     font-size: 21px;
     font-weight: 300;
     margin: 0;
@@ -8,8 +8,9 @@ body {
 }
 
 .container {
-    width: 570px;
+    max-width: 570px;
     margin: 0 auto;
+    padding: 0 15px;
 }
 
 h1, h2, h3 {
@@ -51,7 +52,7 @@ a:hover, a:focus {
 }
 
 .small-text {
-    font-size: 1 rem;
+    font-size: 1rem;
     margin-top: 5px;
 }
 
@@ -94,9 +95,27 @@ header {
 
 img {
     width: 200px;
-    height: 200px;
-    float: left;
+    height: 200px;  
     margin-right: 10px;
     border-radius: 50%;  
 }
 
+.social-media-links {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    display: flex;
+    align-items: center;
+}
+
+.social-media-links a {
+    display: inline-block;
+    margin-right: 10px;
+    color: #fff;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+.social-media-links a:hover {
+    color: #818776;
+}

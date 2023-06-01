@@ -8,31 +8,41 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Unbounded:wght@300&display=swap" rel="stylesheet">
-    <link href="css/style.css" rel="stylesheet">
+    <link href="style.css" rel="stylesheet">
 </head>
 <body>
     <header class="inverse">
         <div class="container">
-            <h1>Hello, my name is <span class="accent-text">Arzu</span></h1>
+            <h1>Hello, I'm <span class="accent-text">Arzu</span></h1>
             <img src="img/Arzu Caner.png" alt="portrait of Arzu">
+
+            <div class="social-media-links">
+                <a href="https://www.linkedin.com/in/arzucaner" target="_blank" rel="noopener noreferrer">
+                    LinkedIn
+                </a>
+                <a href="https://twitter.com/arzuguneycaner" target="_blank" rel="noopener noreferrer">
+                    Twitter
+                </a>
+            </div>
         </div>
     </header>
-
-    <section class="about-me">
+        
+       <section class="about-me">
         <div class="container">
-            <h2>I am <span class="accent-text">a Frontend Developer</span></h2>
-            <p>As a Frontend Developer, I am dedicated to creating dynamic and user-friendly web experiences. With a background in 
+            <h2>I'm <span class="accent-text">a Frontend Developer</span></h2>
+            <p>As a Frontend Developer, I'm dedicated to creating dynamic and user-friendly web experiences. With a background in 
             Technical SEO, I bring a unique perspective to the software industry, combining my technical expertise with my passion for 
             software development.</p>
-            <a href="#" class="btn">See my work</a>
+            <a href="#" class="btn" id="my-work-btn">See my work</a>
         </div>
     </section>
 
     <section class="articles inverse">
         <div class="container">
             <h2>My most recent <span class="bold-text">article</span></h2>
-            <article>
-                <h3>Breaking Barriers: A Woman's Journey in the Software Industry</h3>
+            <article id="recent-article">
+                <a href="https://arzuguneycaner.medium.com/" target="_blank" class="btn">Read on Medium</a>
+                <h3>Breaking Barriers: A Woman's Journey in the Software Industry</h3>                
                 <p>Written by Arzu Caner on March 27, 2023</p>
                 <p>I have stepped into another industry where it is difficult to be a woman. I say this because statistics present some 
                 striking results.</p>
@@ -57,4 +67,11 @@
                 of these communities, including Lonca, Women Who Code London, Women Who Code, and Women Who Code Frontend. These 
                 communities are working hard to help women develop their skills and become leaders in the industry.</p>
             
-                <p>I hope that the software industry becomes
+                <p>I hope that the software industry becomes</p>
+            </article>
+        </div>
+    </section>    
+
+    <script src="script.js"></script>
+</body>
+</html>
