@@ -40,5 +40,5 @@ This project is licensed under the MIT License.
 
 ---
 
-![discovering-me](https://github.com/arzucaner/discovering-me/assets/108270415/eb043cf4-c49a-4681-84ad-e50254645e29)
+![discovering-me](https://github.com/arzucaner/discovering-me/assets/108270415/45066242-3b86-4ee9-89b3-da8942069013)
 
