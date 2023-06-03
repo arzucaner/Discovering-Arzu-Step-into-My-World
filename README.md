@@ -1,6 +1,6 @@
-# Discovering Me
+# Discovering Arzu: Step Into My World
 
-Discovering Me is a personal website project where I can introduce myself and showcase my skills.
+This is a personal website project where I can introduce myself and showcase my skills.
 
 ---
 
